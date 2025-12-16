@@ -369,7 +369,7 @@ mvn exec:java -Dexec.mainClass="com.example.soccer.Main" \
 #### 8.3 Build and run
 
 ```bash
-cd /Users/huynhngocanhthu/data-mining
+cd /Users/downloads/data-mining-main
 mvn clean package
 mvn exec:java -Dexec.mainClass="com.example.soccer.Main"
 ```
@@ -386,7 +386,7 @@ This will:
 #### 8.4 Generate plots (optional)
 
 ```bash
-cd /Users/huynhngocanhthu/data-mining
+cd /Users/downloads/data-mining-main
 python analysis/plots.py
 ```
 
